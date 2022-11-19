@@ -41,5 +41,5 @@ TypeScript는 JavaScript의 확장된 언어이다.
 
 ## 마치며
 
-TypeScript는 JS개발자라면 꼭 배워야하는 언어다.  
+TypeScript는 백엔드 개발자라면 배우는게 좋은 언어이다.  
 NestJS와 같은 프레임워크를 사용하려면 숙달하는 것이 좋다.
