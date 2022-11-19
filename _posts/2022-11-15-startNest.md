@@ -43,7 +43,7 @@ NestJS는 터미널 혹은 명령프롬포트에 아래와 같은 명령어를 �
 
 ## 프로젝트 실행해보기
 
-> > npm run start:dev
+> npm run start:dev
 
 위의 명령어를 이용해 서버를 실행하고 아래의 주소로 이동해보면 "Hello World" 가 출력되는 것을 알 수 있다.
 
