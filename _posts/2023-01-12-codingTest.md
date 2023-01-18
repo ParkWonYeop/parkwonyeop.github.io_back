@@ -9,6 +9,7 @@ tags:
   - codingTest
 author: ParkWonyeop
 published: true
+img: ":title.png"
 ---
 ## 서론
 
