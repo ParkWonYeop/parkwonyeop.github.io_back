@@ -1,13 +1,21 @@
+# this will handle to macos hidden folders
+# ignore all starts with .* except .git and so on
+.*
+!.git*
+!.editorconfig
 
-.DS_Store
-/.idea/inspectionProfiles/profiles_settings.xml
-/.idea/.gitignore
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/the-mvm.github.io.iml
-/.idea/inspectionProfiles/Project_Default.xml
-/.idea/vcs.xml
-/.vscode/settings.json
-/.vscode/
-/.idea/
-.liquidrc
+# jekyll Cache
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+
+# OS generated
+ehthumbs.db
+Thumbs.db
+
+# diff files
+*.bak
+
+# updating Gemfile automatically using github actions
+vendor
