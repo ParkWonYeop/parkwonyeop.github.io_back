@@ -3,6 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: 코딩테스트 (2) - 추천아이디
+img: ":title.png"
 date: "2023-01-17 18:23:20"
 description: 코딩테스트 문제 풀이
 tags:
