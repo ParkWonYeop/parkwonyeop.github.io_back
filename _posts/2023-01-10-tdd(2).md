@@ -10,6 +10,7 @@ tags:
 author: ParkWonyeop
 published: true
 img: ":title.png"
+category: theory
 ---
 ## 서론
 

@@ -10,6 +10,7 @@ tags:
   - codingTest
 author: ParkWonyeop
 published: true
+category: codingtest
 ---
 ## 서론
 

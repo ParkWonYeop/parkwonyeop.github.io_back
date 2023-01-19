@@ -11,6 +11,7 @@ tags:
 author: ParkWonyeop
 published: true
 img: ":title.png"
+category: javascript
 ---
 
 ## 서론
