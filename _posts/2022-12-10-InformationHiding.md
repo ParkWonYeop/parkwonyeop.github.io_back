@@ -2,9 +2,9 @@
 layout: post
 read_time: true
 show_date: true
-title: 캡슐화란?
+title: 정보은닉란?
 date: "2022-12-10 18:23:20"
-description: 캡슐화에 대해서 알아보자
+description: 정보은닉에 대해서 알아보자
 tags:
   - InformationHiding
 author: ParkWonyeop
