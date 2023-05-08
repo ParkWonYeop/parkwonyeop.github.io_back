@@ -77,5 +77,33 @@ atan2 함수는 점 A로부터 점 B가 상대적으로 어느 위치에 있는�
 Math.atan2(x, y);
 ```
 
-위의 값을 이용해서 공식을 사용한다면 두 위경도 사이의 거리를 구할 수 있을 것 같다.
+## Javascript로 구현해본 Haversine 공식
+
+```
+function toRadians(degrees) {
+  return degrees * (Math.PI / 180);
+}
+
+function haversineDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371; // 지구의 반지름
+
+  const lat1_rad = toRadians(lat1);
+  const lon1_rad = toRadians(lon1);
+  const lat2_rad = toRadians(lat2);
+  const lon2_rad = toRadians(lon2);
+
+  const dLat = lat2_rad - lat1_rad;
+  const dLon = lon2_rad - lon1_rad;
+
+  const a = Math.sin(dLat / 2) ** 2 +
+            Math.cos(lat1_rad) * Math.cos(lat2_rad) *
+            Math.sin(dLon / 2) ** 2;
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  const distance = R * c;
+  return distance;
+}
+```
+
+위의 함수를 이용하면 두 개의 위경도 사이의 거리를 구할 수 있다.  
 
