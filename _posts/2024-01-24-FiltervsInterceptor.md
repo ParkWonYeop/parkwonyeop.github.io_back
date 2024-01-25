@@ -36,3 +36,7 @@ J2EE란 자바 기술로 기업 환경의 어플리케이션을 만드는데 필
 필터와 달리 Spring 내부에서 처리된다.  
 
 용도로는 세부적인 보안 및 인증작업, API 호출에 대한 로깅, Controller로 넘겨주는 데이터의 가공에 사용된다.  
+
+## Filter vs Interceptor
+
+<center><img src="../assets/img/posts/20240125/1.png"></center>
