@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: 데이터 클래스
 img: ":title.png"
-date: "2024-04-28 18:23:20"
+date: "2024-04-25 18:23:20"
 description: 
 tags:
   - Kotlin
