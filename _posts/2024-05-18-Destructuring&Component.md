@@ -20,7 +20,7 @@ category: Kotlin
 
 구조 분해를 사용하면 객체가 가지고 있는 여러 값을 분해해서 여러 변수를 한꺼번에 초기화 할 수 있다.  
 
-```
+```Kotlin
 data class Car(
   private val model : String,
   private val year : Int
@@ -39,7 +39,7 @@ println(year)
 위와 같이 여러 변수를 괄호로 묶어서 변수를 선언하여 객체의 값을 가져오는 것이 구조분해라고 한다.  
 이 구조 분해 선언 내부에서는 각 변수를 초기화하기 위해 componentN이라는 함수를 호출하게 되며, 여기서 N은 구조 분해 선언에 있는 변수 위치에 따라 붙는 번호다.  
 
-```
+```Kotlin
 val (a,b) = data
 --
 val a = data.component1()
@@ -51,7 +51,7 @@ val b = data.component2()
 이러한 구조 분해 선언은 함수의 리턴 값이 여러개일때 유용하다.  
 그렇다면 사용하지 않는 값을 처리할때는 어떻게 해야할까?  
 
-```
+```Kotlin
 data class Car(
   private val model : String,
   private val cc : Int,

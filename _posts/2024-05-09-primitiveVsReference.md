@@ -49,7 +49,7 @@ Java에서 실제 객체는 힙 메모리에 저장되며, 참조 타입 변수�
 
 그렇다면 참조타입과 유사하지만 한가지 다른점은 Null 값을 담기 위해서는 Nullable을 표시해줘야한다.  
 
-```
+```Kotlin
 val id: Long = null // 에러
 val nullId = Long? = null
 ```
